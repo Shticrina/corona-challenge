@@ -1,0 +1,119 @@
+/*Variables*/
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+button,
+a.btn {
+  border-radius: 27px;
+  padding: 14px 22px;
+  font-size: 14px;
+  background-color: #f8315a;
+  text-transform: uppercase;
+}
+
+/*Header*/
+#myheader {
+  background-image: url("../img/header-banner.jpg");
+  background-repeat: no-repeat;
+  height: 800px;
+  color: #fff;
+}
+#myheader .navbar.navbar-expand-lg ul {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+#myheader .navbar.navbar-expand-lg ul li {
+  margin: 0 0.8rem;
+}
+#myheader .navbar.navbar-expand-lg ul li a {
+  color: #fff;
+}
+#myheader #header-caption {
+  margin-top: 15%;
+}
+#myheader #header-caption h1, #myheader #header-caption h2 {
+  font-weight: 800;
+}
+#myheader #header-caption h1 {
+  font-size: 58px;
+}
+#myheader #header-caption h2 {
+  font-size: 52px;
+}
+#myheader #header-caption p {
+  letter-spacing: 3px;
+}
+#myheader #header-caption p.subtitle {
+  letter-spacing: 6px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+/*Statistics block*/
+#statistics {
+  background-image: url("../img/statistics-bg.png");
+  /*background-position: center;*/
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
+}
+
+#statistics .row {
+  /*.statistic:first-child {
+  	color: $red_color;
+  }
+
+  .statistic:nth-child(2) {
+  	color: $mauve_color;
+  }
+
+  .statistic:nth-child(3) {
+  	color: $purple_color;
+  }
+
+  .statistic:nth-child(4) {
+  	color: $orange_color;
+  }
+
+  .statistic .numbers {
+  	font-size: 50px; 
+  }
+
+  .statistic img {
+  	width: 90px;
+      height: auto;
+      margin: auto;
+      overflow: hidden;
+  }*/
+}
+#statistics .row .statistic {
+  text-align: center;
+}
+#statistics .row .statistic:first-child {
+  color: #f8315a;
+}
+#statistics .row .statistic:nth-child(2) {
+  color: #a60548;
+}
+#statistics .row .statistic:nth-child(3) {
+  color: #7218b3;
+}
+#statistics .row .statistic:nth-child(4) {
+  color: #da6603;
+}
+#statistics .row .statistic p {
+  margin: 0;
+  font-size: 18px;
+}
+#statistics .row .statistic .numbers {
+  font-size: 30px;
+  margin-top: -10px;
+}
+#statistics .row .statistic img {
+  width: 90px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=mystyle.css.map */

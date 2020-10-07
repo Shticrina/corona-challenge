@@ -1,0 +1,143 @@
+/*Variables*/
+$red_color: #f8315a;
+$mauve_color: #a60548;
+$purple_color: #7218b3;
+$orange_color: #da6603;
+$white_color: #fff;
+
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+button,
+a.btn {
+	border-radius: 27px;
+    padding: 14px 22px;
+    font-size: 14px;
+    background-color: $red_color;
+    text-transform: uppercase;
+}
+
+/*Header*/
+#myheader {
+	background-image: url("../img/header-banner.jpg");
+	background-repeat: no-repeat;
+    height: 800px;
+    color: $white_color;
+
+    .navbar.navbar-expand-lg ul {
+    	text-transform: uppercase;
+    	font-size: 14px;
+
+    	li {
+    		margin: 0 0.8rem;
+
+    		a {
+    			color: $white_color;
+    		}
+
+    	}
+    }
+
+    #header-caption {
+    	margin-top: 15%;
+    	
+    	h1, h2 {
+    		font-weight: 800;
+    	}
+
+    	h1 {
+    		font-size: 58px;
+    	}
+
+    	h2 {
+    		font-size: 52px;
+    	}
+
+    	p {
+    		letter-spacing: 3px;
+    	}
+
+    	p.subtitle {
+    		letter-spacing: 6px;
+		    font-size: 23px;
+		    font-weight: 600;
+    	}
+    }
+}
+
+/*Statistics block*/
+#statistics {
+	background-image: url("../img/statistics-bg.png");
+	/*background-position: center;*/
+    /*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+#statistics .row {
+	.statistic {
+		text-align: center;
+
+		&:first-child {
+			color: $red_color;
+		}
+
+		&:nth-child(2) {
+			color: $mauve_color;
+		}
+
+		&:nth-child(3) {
+			color: $purple_color;
+		}
+
+		&:nth-child(4) {
+			color: $orange_color;
+		}
+
+		p {
+			margin: 0;
+			font-size: 18px;
+		}
+
+		.numbers {
+			font-size: 30px;
+			margin-top: -10px;
+		}
+
+		img {
+			width: 90px;
+		    height: auto;
+		    margin: auto;
+		    overflow: hidden;
+		}
+	}
+
+	/*.statistic:first-child {
+		color: $red_color;
+	}
+
+	.statistic:nth-child(2) {
+		color: $mauve_color;
+	}
+
+	.statistic:nth-child(3) {
+		color: $purple_color;
+	}
+
+	.statistic:nth-child(4) {
+		color: $orange_color;
+	}
+
+	.statistic .numbers {
+		font-size: 50px; 
+	}
+
+	.statistic img {
+		width: 90px;
+	    height: auto;
+	    margin: auto;
+	    overflow: hidden;
+	}*/
+}
+
