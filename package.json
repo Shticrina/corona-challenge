@@ -1,0 +1,22 @@
+{
+  "name": "corona-challenge",
+  "version": "1.0.0",
+  "description": "#### In this exercice we have to improve our Bootstrap knowledge, Sass knowledge (by using Bootstrap's sass files) and JS knowledge.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass -o assets/bootstrap/css assets/bootstrap/scss/bootstrap.scss -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shticrina/corona-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shticrina/corona-challenge/issues"
+  },
+  "homepage": "https://github.com/Shticrina/corona-challenge#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
