@@ -14,24 +14,26 @@
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="./assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="https://yarnpkg.com/en/package/normalize.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/mystyle.css">
 
     <!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	<header class="myheader">
+	<header id="myheader" class="p-5">
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">Codigo</a>
+            <a class="navbar-brand" href="./index.html">
+                <img src="./assets/img/coronavirus-logo.png">
+            </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto align-items-center">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -56,17 +58,18 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="btn btn-danger rounded" href="#">Call a doctor</a>
+                        <a class="btn btn-danger" href="#">Call a doctor</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <div id="header-caption">
+        <div id="header-caption" class="p-3">
             <div class="caption-text">
-                <h1>Covid-19</h1>
-                <p>Basic protective measures</p>
-                <h2>Social distancing</h2>
+                <h1 class="text-uppercase mb-0">Covid-19</h1>
+                <p class="subtitle text-uppercase mb-0">Basic protective measures</p>
+
+                <h2 class="text-uppercase mb-0">Social distancing</h2>
                 <p>For Emergency Contact (012) 345 6789</p>
 
                 <a href="#" class="btn btn-danger">Get started now!</a>
@@ -78,39 +81,63 @@
         </div>
     </header>
 
-    <div id="statistics" class="bg-dark p-5 my-4">
-        <p>statistics block</p>
+    <div id="statistics" class="p-4">
+        <div class="row">
+            <div class="statistic col-lg-3 col-md-6 d-flex flex-column">
+                <img src="./assets/img/sprite-home1.png">
+                <p class="text-capitalize">Total confirmed cases</p>
+                <p class="numbers font-weight-bold">882,068</p>
+            </div>
+
+            <div class="statistic col-lg-3 col-md-6 d-flex flex-column">
+                <img src="./assets/img/sprite-home1.png">
+                <p class="text-capitalize">Total cases</p>
+                <p class="numbers font-weight-bold">182,068</p>
+            </div>
+
+            <div class="statistic col-lg-3 col-md-6 d-flex flex-column">
+                <img src="./assets/img/sprite-home1.png">
+                <p class="text-capitalize">Total confirmed</p>
+                <p class="numbers font-weight-bold">382,068</p>
+            </div>
+
+            <div class="statistic col-lg-3 col-md-6 d-flex flex-column">
+                <img src="./assets/img/sprite-home1.png">
+                <p class="text-capitalize">Cases</p>
+                <p class="numbers font-weight-bold">62,068</p>
+            </div>
+        </div>
     </div>
 
-    <div id="about-corona" class="bg-light p-5 my-4">
+    <div id="about-corona" class="border border-danger p-4 my-2">
         <p>about-corona block</p>
     </div>
 
-    <div id="symptomps" class="bg-dark p-5 my-4">
+    <div id="symptomps" class="border border-success p-4 my-2">
         <p>symptomps block</p>
     </div>
 
-    <div id="protection" class="bg-light p-5 my-4">
+    <div id="protection" class="border border-danger p-4 my-2">
         <p>protection block</p>
     </div>
 
-    <div id="newsletter" class="bg-dark p-5 my-4">
+    <div id="newsletter" class="border border-success p-4 my-2">
         <p>newsletter block</p>
     </div>
 
-    <div id="faq" class="bg-light p-5 my-4">
+    <div id="faq" class="border border-danger p-4 my-2">
         <p>faq block</p>
     </div>
 
-    <div id="doctor-team" class="bg-dark p-5 my-4">
+    <div id="doctor-team" class="border border-success p-4 my-2">
         <p>doctor-team block</p>
     </div>
 
-    <div id="blog" class="bg-light p-5 my-4">
+    <div id="blog" class="border border-danger p-4 my-2">
         <p>blog block</p>
     </div>
 
-    <footer>
+    <footer class="border border-warning">
         <div class="text-center">this is the footer</div>
     </footer>
 
